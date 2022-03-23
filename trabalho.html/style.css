@@ -1,0 +1,340 @@
+
+      header{
+        background: silver;
+        padding: 20px 0;
+    }
+    .estilo{
+        margin:0 0 0 10em;
+    }
+   .caixa{ 
+       position: relative;
+         width: 940px;
+        margin: 0 auto;
+   }
+   
+    nav{
+        position: absolute;
+        top: 110px;
+        right: 0;
+    }
+   
+    nav li{
+        display: inline;
+         margin: 0 0 0 15px;   
+    }
+  
+  
+    nav a{
+        text-transform: uppercase ;
+        color: black;
+        font-weight: bold;
+        font-size: 22px;
+        text-decoration: none;
+     } 
+       nav a:hover{
+        color: #C78C19; 
+        text-decoration: underline;
+    }
+    .produtos{
+       width: 940px;
+       margin:0 auto;
+       text-align: center;  
+        padding:50px 0;
+   }
+   
+    .produtos li {
+        display:inline-block ;
+        width:30%;
+        vertical-align: top;
+        margin:0 1.5%;
+        padding: 30px 20px;
+        box-sizing: border-box;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+    .produtos li:hover{
+             border-color:#C78C19; 
+    }
+    .produtos li:active{
+        border-color: green;
+    }
+    .produtos li:hover h2{
+        font-size: 34px;
+    }
+    .produtos h2{
+        font-size: 30px;
+        font-weight: bold;
+        color:black;
+    }
+    .produtos p{
+        color:black;
+    }
+    .ft{
+        font-size: 18px;
+    }
+    .pdpreco{
+        font-weight: bold;
+        font-size: 22px;
+        margin-top: 10px;
+    }
+    footer{
+        text-align: center;
+        background: url("bg.jpg");
+        padding: 40px 0;
+    }
+    @media screen and (max-width:375px) {
+            .caixa {
+                width: auto;
+            
+            }
+.produtos{
+    width: auto;
+}
+.estilo-lista{
+    width: auto;
+}
+.produtos li{
+    width: auto;
+}
+.estilo-lista{
+    position:static;
+}
+.produtos li{
+    margin:1em;
+}
+.logo-estilo{
+    margin: 1em 5.6em;
+}
+    }
+
+ @media screen and (max-width:812px){
+     
+    .produtos{
+        width: 100%;
+    }
+    .produtos li{
+        width: auto;
+
+        margin:1em 1em;
+    }
+ }   
+ /* css dos contatos*/
+    .copyright{
+        color:white;
+        font-size: 13px;
+        margin-top: 20px;
+    }
+
+    form{
+        margin:40px 16px;
+    }
+    form label, form legend{
+        display: block;
+        font-size: 20px;
+        margin: 0 0 10px;
+    }
+    .input-padrao{
+        display: block;
+        margin: 0 0 20px;
+        padding: 10px 25px;
+        width: 50%;
+    }
+    .checkbox{
+        margin: 20px 0;
+    }
+    .enviar{
+        width: 20%;
+        padding: 15px 0;
+        background:orangered;
+        color: white;
+        border: none; 
+        border-radius: 122px;
+        font-weight:  bold;
+        transition: 1s all;
+        cursor: pointer;
+    }
+    .enviar:hover{
+        background:white ;
+        color:orangered;
+        transform: scale(1.2);
+        
+    }
+    table{
+        margin: 20px 0 40px;
+    }
+    thead{
+        background: rgb(31, 30, 30);
+        color:white;
+        font-weight: bold;
+    }
+    td,th{
+        border:1px solid;
+        padding:8px 15px;
+    } 
+     @media screen and (max-width:375px){
+         .caixa{
+             position: static;
+            
+         }
+         .estilo{
+             margin:1em 2em;
+         }
+         .input-padrao{
+            padding: 13px 26px
+         }
+         .enviar{
+             width:50% ;
+             padding: 20px 16px;
+             border-radius: 6px;
+         }    
+         }
+ /*css da pagina inicial*/
+
+  .estilo-cabecario{
+      margin: 4em 8em;
+      
+  }  
+  nav li{
+      margin: 0 0 0 3em;
+      
+  }
+ body{
+    font-family: 'Montserrat', sans-serif;
+ }  
+ .banner{
+            width: 100%;
+    }
+    .titulo-principal{
+                    text-align:center;
+                    font-size: 2em;
+                   margin:0 0 0.5em;
+                    clear:left;
+                  
+    }
+    .principal {
+        padding:3em 0;
+        background: #fefefe;
+        width: 940px; 
+        margin: 0 auto;
+    }
+    .principal p{
+        margin:0 0 1em;
+    }
+    .principal strong{
+        font-weight: bold;
+    }
+    .principal em{
+        font-style:italic;
+    }
+    .utensilios{
+        width: 120px;
+        float:left;
+        margin:0 20px 20px 0;
+    }
+    .mapa{
+        padding: 3em 0;
+          background: linear-gradient(#fefefe, #888888);
+      
+    }
+ 
+
+    .mapa-conteudo{
+        width: 940px; 
+        margin: 0 auto;
+      
+    }
+    .mapa p{
+        margin:0 0 2em;
+        text-align: center;
+    }
+ 
+    .Beneficios{
+        padding: 3em 0;
+        background: #888888;
+    }
+    .beneficios-principal{
+        text-align: center;
+    font-size: 2em;
+    clear: left;
+    }
+.conteudo-beneficios {
+    width:640px;
+    margin: 0 auto;
+} 
+
+.lista-beneficios {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+.itens{
+    line-height: 1.5;
+    margin: 0 0 0 11em;
+}
+.itens:nth-child(1){
+    font-weight: bold;
+}
+.itens:before {
+    content:"★";
+}
+.test-beneficios{
+    background: #888888;
+}
+ .imagem-beneficios{
+    width: 50%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px black;
+}
+.imagem-beneficios:hover{
+    opacity: 0.3;;
+}
+
+
+     .video{
+        width:560px;
+        margin: 3em auto;
+    }
+    @media screen and (max-width:375px) {
+        .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video{
+            width: auto;
+        }
+      h1{
+          text-align: center;
+
+      }
+      nav{
+          position: static;
+      }
+       .imagem-beneficios, .video{
+          width: 100%;
+      }
+      .itens{
+          margin:0 0;
+      }
+      .lista-beneficios{
+          width: 100%;
+          margin:2em 0;
+      }
+    
+    }
+    @media screen and (max-width:812px){
+        .caixa, .principal, .mapa-conteudo{
+            width: 100%;
+            
+        }
+        .estilo-cabecario{
+            padding: 0em 0em;
+            width: 100%;
+            margin:0 0 0 0;
+            text-align: center;
+        }
+        nav li {
+            margin:0 0 0 14px;
+
+        }
+        .itens{
+            margin: 0 0 0 6em;
+        }
+    }
+   

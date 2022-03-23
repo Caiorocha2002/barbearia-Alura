@@ -1,0 +1,51 @@
+
+              .tep{
+                    padding-left: 20px;
+             
+            }
+           
+            #banner{
+                  width: 100%;
+            }
+         
+            .principal{
+                    background:silver;    
+                    padding: 30px;                
+                  }
+          
+            .tituloct{
+                  text-align: center;  
+            }
+                  p{
+                 text-align: center;
+           }
+             
+          #missao{
+            font-size: 20px; 
+          }
+          
+            em strong{
+                     color: red;
+           }
+
+           .Beneficios{
+                 background:#ffffff;
+           }
+           .itens{
+                 font-style: italic;
+           }
+     
+    
+          ul{
+               display: inline-block;
+                 vertical-align: top;
+                 width: 20%;
+                 margin-right: 15%;
+                 padding: 20px;   
+          }
+          
+           .imgbeneficios{
+                 width:50%;
+               
+            }   
+  
